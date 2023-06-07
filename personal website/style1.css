@@ -1,0 +1,79 @@
+
+/*--- Fixed Background Image --*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 40%;
+  margin: 0;
+}
+
+
+
+#fixed {
+  background-image: url('img/fixed bg.png');
+  height: 600px;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+}
+.svg{
+  color: #5b5998;
+}
+
+.btn-primary{
+  background-color: #FFC73A;
+  border: 1px solid #FFC73A;
+}
+
+.btn-primary:hover{
+  background-color: #E6D19B;
+  border: 1px solid #E6D19B;
+}
+
+.btn-outline-secondary{
+  background-color: #FFC73A;
+  border: 1px solid #FFC73A;
+}
+
+.btn-outline-secondary:hover{
+  background-color: #E6D19B;
+  border: 1px solid #E6D19B;
+}
+
+.bi-facebook{
+  color: #5b5998;
+}
+.bi-youtube{
+  color: #bb0000;
+}
+.bi-twitter{
+  color: #00aced;
+}
+.bi-instagram{
+  color: #517fa4;
+}
+
+footer{
+  background-color: #FFF1CE;
+  color: #9B4A2A;
+  padding-top: 2rem;
+}
+
+
+
+
+
+/**protfolio 1 **/
+.jumbotron{
+  background-color: #FFF1CE;
+}
